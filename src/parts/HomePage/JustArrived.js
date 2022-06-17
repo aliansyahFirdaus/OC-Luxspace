@@ -45,7 +45,7 @@ export default function JustArrived() {
             </div>
             <h5 className="text-lg font-semibold mt-4">Cangkir Mauttie</h5>
             <span className="">IDR 89.300</span>
-            <Link to="detail" className="stretched-link">
+            <Link to="detail/2" className="stretched-link">
               {/* <!-- fake children --> */}
             </Link>
           </div>
@@ -80,7 +80,7 @@ export default function JustArrived() {
             </div>
             <h5 className="text-lg font-semibold mt-4">Bankyu Minimay</h5>
             <span className="">IDR 67.899</span>
-            <Link to="detail" className="stretched-link">
+            <Link to="detail/2" className="stretched-link">
               {/* <!-- fake children --> */}
             </Link>
           </div>
@@ -115,7 +115,7 @@ export default function JustArrived() {
             </div>
             <h5 className="text-lg font-semibold mt-4">Buku Sidu Edition</h5>
             <span className="">IDR 120.699</span>
-            <Link to="detail" className="stretched-link">
+            <Link to="detail/2" className="stretched-link">
               {/* <!-- fake children --> */}
             </Link>
           </div>
@@ -150,7 +150,7 @@ export default function JustArrived() {
             </div>
             <h5 className="text-lg font-semibold mt-4">Watch Notes X</h5>
             <span className="">IDR 1.973.000</span>
-            <Link to="detail" className="stretched-link">
+            <Link to="detail/2" className="stretched-link">
               {/* <!-- fake children --> */}
             </Link>
           </div>
@@ -185,7 +185,7 @@ export default function JustArrived() {
             </div>
             <h5 className="text-lg font-semibold mt-4">Racking Plants</h5>
             <span className="">IDR 599.400</span>
-            <Link to="detail" className="stretched-link">
+            <Link to="detail/2" className="stretched-link">
               {/* <!-- fake children --> */}
             </Link>
           </div>
