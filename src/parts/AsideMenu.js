@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function AsideMenu() {
   return (
@@ -16,13 +17,19 @@ export default function AsideMenu() {
               <h5 className="text-lg font-semibold mb-2 relative">Overview</h5>
               <ul className="h-0 invisible md:h-auto md:visible overflow-hidden">
                 <li>
-                  <a href="#" className="hover:underline py-1 block">Shipping</a>
+                  <Link to="/" className="hover:underline py-1 block">
+                    Shipping
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline py-1 block">Refund</a>
+                  <Link to="/" className="hover:underline py-1 block">
+                    Refund
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline py-1 block">Promotion</a>
+                  <Link to="/" className="hover:underline py-1 block">
+                    Promotion
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -30,13 +37,19 @@ export default function AsideMenu() {
               <h5 className="text-lg font-semibold mb-2 relative">Company</h5>
               <ul className="h-0 invisible md:h-auto md:visible overflow-hidden">
                 <li>
-                  <a href="#" className="hover:underline py-1 block">About</a>
+                  <Link to="/" className="hover:underline py-1 block">
+                    About
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline py-1 block">Career</a>
+                  <Link to="/" className="hover:underline py-1 block">
+                    Career
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline py-1 block">Contact Us</a>
+                  <Link to="/" className="hover:underline py-1 block">
+                    Contact Us
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -44,19 +57,19 @@ export default function AsideMenu() {
               <h5 className="text-lg font-semibold mb-2 relative">Explore</h5>
               <ul className="h-0 invisible md:h-auto md:visible overflow-hidden">
                 <li>
-                  <a href="#" className="hover:underline py-1 block"
-                    >Terms & Conds</a
-                  >
+                  <Link to="/" className="hover:underline py-1 block">
+                    Terms & Conds
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline py-1 block"
-                    >Privacy Policy</a
-                  >
+                  <Link to="/" className="hover:underline py-1 block">
+                    Privacy Policy
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline py-1 block"
-                    >For Developer</a
-                  >
+                  <Link to="/" className="hover:underline py-1 block">
+                    For Developer
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -92,5 +105,5 @@ export default function AsideMenu() {
         </aside>
       </div>
     </section>
-  )
+  );
 }
