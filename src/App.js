@@ -1,9 +1,12 @@
-import "./assets/css/app.css";
 import { Routes, Route } from "react-router-dom";
+
+import "./assets/css/app.css";
+
 import Home from "./pages/Home";
 import Detail from "./pages/Detail";
 import Cart from "./pages/Cart";
 import Congratulation from "./pages/Congratulation";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -13,6 +16,7 @@ function App() {
         <Route path="/detail/:id" element={<Detail />} />
         <Route path="/checkout" element={<Cart />} />
         <Route path="/success" element={<Congratulation />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
