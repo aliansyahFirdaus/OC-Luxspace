@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -14,12 +15,12 @@ export default function Hero() {
           membuat ruangan terasa homey
         </h2>
         <div>
-          <a
-            href="#browse-the-room"
+          <Link
+            to="/"
             className="bg-pink-400 text-black hover:bg-black hover:text-pink-400 rounded-full px-8 py-3 mt-4 inline-block flex-none transition duration-200"
           >
             Explore Now
-          </a>
+          </Link>
         </div>
       </div>
       <div className="w-full inset-0 md:relative md:w-1/2">
