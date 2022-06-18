@@ -83,7 +83,7 @@ export default function Headers({ theme, position }) {
                   className={`flex items-center justify-center w-8 h-8 ${ThemeHeaders(
                     theme
                   )}`}
-                  to="cart.html"
+                  to="/checkout"
                 >
                   <svg
                     className="fill-current"

@@ -1,95 +1,96 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Details() {
   return (
-    <section class="container mx-auto">
-      <div class="flex flex-wrap my-4 md:my-12">
-        <div class="w-full md:hidden px-4">
-          <h2 class="text-5xl font-semibold">Chair Thatty</h2>
-          <span class="text-xl">IDR 12.000.000</span>
+    <section className="container mx-auto">
+      <div className="flex flex-wrap my-4 md:my-12">
+        <div className="w-full md:hidden px-4">
+          <h2 className="text-5xl font-semibold">Chair Thatty</h2>
+          <span className="text-xl">IDR 12.000.000</span>
         </div>
-        <div class="flex-1">
-          <div class="slider">
-            <div class="thumbnail">
-              <div class="px-2">
+        <div className="flex-1">
+          <div className="slider">
+            <div className="thumbnail">
+              <div className="px-2">
                 <div
-                  class="item selected"
+                  className="item selected"
                   data-img="/images/content/showcase-1.front.jpg"
                 >
                   <img
                     src="/images/content/showcase-1.front.jpg"
                     alt="front"
-                    class="object-cover w-full h-full rounded-lg"
+                    className="object-cover w-full h-full rounded-lg"
                   />
                 </div>
               </div>
-              <div class="px-2">
+              <div className="px-2">
                 <div
-                  class="item"
+                  className="item"
                   data-img="/images/content/showcase-1.back.jpg"
                 >
                   <img
                     src="/images/content/showcase-1.back.jpg"
                     alt="back"
-                    class="object-cover w-full h-full rounded-lg"
+                    className="object-cover w-full h-full rounded-lg"
                   />
                 </div>
               </div>
-              <div class="px-2">
+              <div className="px-2">
                 <div
-                  class="item"
+                  className="item"
                   data-img="/images/content/showcase-1.rear.jpg"
                 >
                   <img
                     src="/images/content/showcase-1.rear.jpg"
                     alt="rear"
-                    class="object-cover w-full h-full rounded-lg"
+                    className="object-cover w-full h-full rounded-lg"
                   />
                 </div>
               </div>
-              <div class="px-2">
+              <div className="px-2">
                 <div
-                  class="item"
+                  className="item"
                   data-img="/images/content/showcase-1.side.jpg"
                 >
                   <img
                     src="/images/content/showcase-1.side.jpg"
                     alt="side"
-                    class="object-cover w-full h-full rounded-lg"
+                    className="object-cover w-full h-full rounded-lg"
                   />
                 </div>
               </div>
-              <div class="px-2">
-                <div class="item" data-img="/images/content/showcase-1.top.jpg">
+              <div className="px-2">
+                <div className="item" data-img="/images/content/showcase-1.top.jpg">
                   <img
                     src="/images/content/showcase-1.top.jpg"
                     alt="top"
-                    class="object-cover w-full h-full rounded-lg"
+                    className="object-cover w-full h-full rounded-lg"
                   />
                 </div>
               </div>
             </div>
-            <div class="preview">
-              <div class="item rounded-lg h-full overflow-hidden">
+            <div className="preview">
+              <div className="item rounded-lg h-full overflow-hidden">
                 <img
                   src="/images/content/showcase-1.front.jpg"
                   alt="front"
-                  class="object-cover w-full h-full rounded-lg"
+                  className="object-cover w-full h-full rounded-lg"
                 />
               </div>
             </div>
           </div>
         </div>
-        <div class="flex-1 px-4 md:p-6">
-          <h2 class="text-5xl font-semibold">Chair Thatty</h2>
-          <p class="text-xl">IDR 12.000.000</p>
+        <div className="flex-1 px-4 md:p-6">
+          <h2 className="text-5xl font-semibold">Chair Thatty</h2>
+          <p className="text-xl">IDR 12.000.000</p>
 
-          <a
-            href="cart.html"
-            class="transition-all duration-200 bg-pink-400 text-black focus:bg-black focus:text-pink-400 rounded-full px-8 py-3 mt-4 inline-flex"
+          <Link
+            to="cart.html"
+            className="transition-all duration-200 bg-pink-400 text-black focus:bg-black focus:text-pink-400 rounded-full px-8 py-3 mt-4 inline-flex"
           >
             <svg
-              class="fill-current mr-3"
+              className="fill-current mr-3"
               width="26"
               height="24"
               viewBox="0 0 26 24"
@@ -101,16 +102,16 @@ export default function Details() {
               <path d="M25.6499 4.508C25.407 4.22245 25.0472 4.05871 24.6626 4.05871H4.82655L4.42595 2.19571C4.34232 1.80709 4.06563 1.48078 3.68565 1.32272L0.890528 0.160438C0.567841 0.0261566 0.192825 0.168008 0.0528584 0.477043C-0.0872597 0.786176 0.0608116 1.14549 0.383347 1.27957L3.17852 2.4419L6.2598 16.7708C6.38117 17.3351 6.90578 17.7446 7.50723 17.7446H22.7635C23.1152 17.7446 23.4003 17.4715 23.4003 17.1346C23.4003 16.7976 23.1152 16.5245 22.7635 16.5245H7.50728L7.13247 14.7815H22.8814C23.4828 14.7815 24.0075 14.3719 24.1288 13.8076L25.9101 5.52488C25.9876 5.16421 25.8928 4.79349 25.6499 4.508ZM22.8814 13.5615H6.87012L5.08895 5.27879L24.6626 5.27884L22.8814 13.5615Z" />
             </svg>
             Add to Cart
-          </a>
-          <hr class="my-8" />
+          </Link>
+          <hr className="my-8" />
 
-          <h6 class="text-xl font-semibold mb-4">About the product</h6>
-          <p class="text-xl leading-7 mb-6">
+          <h6 className="text-xl font-semibold mb-4">About the product</h6>
+          <p className="text-xl leading-7 mb-6">
             Tailored to a level of perfection synonymous with that of a Savile
             Row suit and with understated quality in the detail, Jetty has been
             influenced by timeless 1950s style.
           </p>
-          <p class="text-xl leading-7">
+          <p className="text-xl leading-7">
             Providing a subtle nod to the past, Jetty also provides a perfect
             solution for the way we work today. A comprehensive product family,
             Jetty features a variety of elegant chairs and sofas.
