@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Detail from "./pages/Detail";
 import Cart from "./pages/Cart";
+import Congratulation from "./pages/Congratulation";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/detail/:id" element={<Detail />} />
         <Route path="/checkout" element={<Cart />} />
+        <Route path="/success" element={<Congratulation />} />
       </Routes>
     </div>
   );
