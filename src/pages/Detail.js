@@ -1,9 +1,13 @@
 import React from "react";
+
 import Headers from "../parts/Headers";
 import AsideMenu from "../parts/AsideMenu";
 import Footer from "../parts/Footer";
 
 import Breadcrumbs from "../components/Breadcrumbs";
+
+import ProductDetail from "../parts/Detail/ProductDetail";
+import Suggestion from "../parts/Detail/Suggestion";
 
 export default function Detail() {
   return (
@@ -25,6 +29,8 @@ export default function Detail() {
           },
         ]}
       />
+      <ProductDetail />
+      <Suggestion />
       <AsideMenu />
       <Footer />
     </>
