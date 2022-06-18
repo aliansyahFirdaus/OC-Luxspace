@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import ThemeHeaders from "../helpers/formating/ThemeHeaders";
 
 export default function Headers({ theme, position }) {
-  console.log(ThemeHeaders(theme));
+
+  console.log(ThemeHeaders(theme))
 
   return (
     <header className={`${position || ""} w-full z-50 px-4`}>
@@ -25,7 +26,7 @@ export default function Headers({ theme, position }) {
               <li className="mx-3 py-6 md:py-0">
                 <Link
                   to="#"
-                  className={`${ThemeHeaders(theme)} hover:underline`}
+                  className={`${ThemeHeaders(theme)}  hover:underline`}
                 >
                   Showcase
                 </Link>
