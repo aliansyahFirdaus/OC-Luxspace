@@ -8,10 +8,14 @@ import Footer from "../parts/Footer";
 import StartBrowse from "../parts/HomePage/StartBrowse";
 import JustArrived from "../parts/HomePage/JustArrived";
 import Clients from "../parts/HomePage/Clients";
+
 import useScrollAnchor from "../helpers/hooks/useScrollAnchor";
+import useModalDOM from "../helpers/hooks/useModalDOM";
 
 export default function Home() {
-  useScrollAnchor()
+  useScrollAnchor();
+  useModalDOM();
+
   return (
     <>
       <Headers position="absolute" />

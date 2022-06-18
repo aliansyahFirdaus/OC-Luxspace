@@ -6,7 +6,7 @@ export default function Headers({ theme, position }) {
   console.log(ThemeHeaders(theme))
 
   return (
-    <header className={`${position || ""} w-full z-50 px-4`}>
+    <header className={`${position || ""} w-full z-20 px-4`}>
       <div className="container mx-auto py-5">
         <div className="flex flex-stretch items-center">
           <div className="w-56 items-center flex">
